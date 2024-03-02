@@ -1,0 +1,245 @@
+.chess-logo {
+    height: 948px;
+    width: 1200px;
+    position: relative;
+    object-fit: cover;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .maina {
+    color: #ef0b19;
+  }
+  .chess-maina-txt-container {
+    width: 100%;
+  }
+  .chess-maina {
+    width: 1090px;
+    height: 363px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .frame-content {
+    width: 1529px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 199px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .demo,
+  .product {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .demo {
+    height: 283px;
+    flex: 1;
+    max-width: 100%;
+  }
+  .product {
+    align-self: stretch;
+    height: 239px;
+    flex-shrink: 0;
+  }
+  .pricing-text-frame {
+    width: 826px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-2xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .about {
+    align-self: stretch;
+    height: 206px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .slide-bar-frame {
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-2xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .pricing {
+    align-self: stretch;
+    height: 195px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .frame-container {
+    width: 694px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .demo-text-frame,
+  .frame-container,
+  .product-text-frame {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .product-text-frame {
+    width: 3206px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .demo-text-frame {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 143px 0 0;
+    box-sizing: border-box;
+  }
+  .join-for-free {
+    align-self: stretch;
+    height: 188px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .chess-logo-rect,
+  .join-free-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .join-free-label {
+    width: 915px;
+    flex-direction: column;
+    padding: 238px 0 0;
+  }
+  .chess-logo-rect {
+    width: 7037px;
+    flex-direction: row;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: 0 23px;
+    text-align: center;
+    font-size: var(--font-size-109xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .order-chess-mania,
+  .slide-bar {
+    justify-content: center;
+    max-width: 100%;
+  }
+  .order-chess-mania {
+    height: 529px;
+    width: 3770px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .slide-bar {
+    align-self: stretch;
+    background-color: var(--bebypink);
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--padding-80xl) var(--padding-xl) var(--padding-80xl) 29px;
+    box-sizing: border-box;
+    min-height: 861px;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-109xl);
+    color: var(--textbgcolor);
+    font-family: var(--font-inter);
+  }
+  .header-page,
+  .menu-bar,
+  .slide-bar {
+    overflow: hidden;
+    display: flex;
+  }
+  .menu-bar {
+    flex: 1;
+    background-color: var(--fbbgcolr);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 527px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .header-page {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .menu-bar {
+      padding-bottom: 343px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .order-chess-mania {
+      font-size: 51px;
+    }
+    .menu-bar {
+      padding-bottom: 223px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-content {
+      padding-top: 129px;
+      box-sizing: border-box;
+    }
+    .slide-bar {
+      padding-top: var(--padding-45xl);
+      padding-bottom: var(--padding-45xl);
+      box-sizing: border-box;
+    }
+    .menu-bar {
+      padding-bottom: 145px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .demo-text-frame,
+    .join-free-label {
+      padding-top: 93px;
+      box-sizing: border-box;
+    }
+    .join-free-label {
+      padding-top: 155px;
+    }
+    .order-chess-mania {
+      font-size: 32px;
+    }
+  }
+  
+  

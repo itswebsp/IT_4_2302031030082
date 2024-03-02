@@ -1,0 +1,249 @@
+.chess-tutor-2 {
+    height: 2972px;
+    width: 3279px;
+    position: relative;
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .save-your-time-we {
+    margin: 0;
+  }
+  .hedline2 {
+    width: 2232px;
+    height: 374px;
+    position: relative;
+    font-size: 128px;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .proper-editing-and {
+    margin-bottom: 0;
+  }
+  .proper-editing-and-formatting {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-109xl);
+  }
+  .blank-line {
+    margin: 0;
+  }
+  .free-revision-title {
+    margin-bottom: 0;
+  }
+  .free-revision-title-page-and {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-109xl);
+  }
+  .blank-line1 {
+    margin: 0;
+  }
+  .flexible-prices-and {
+    margin-bottom: 0;
+  }
+  .flexible-prices-and-money-back {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-109xl);
+  }
+  .peragraph {
+    height: 906px;
+    width: 1834px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .call-to-action {
+    width: 2064px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    color: #5c586a;
+  }
+  .youtube-button-2 {
+    height: 421px;
+    width: 1006px;
+    position: relative;
+    border-radius: 55.59px;
+    display: none;
+    max-width: 100%;
+  }
+  .content-frame,
+  .frame-group,
+  .place-order {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .place-order {
+    height: 279px;
+    flex: 1;
+    position: relative;
+    font-weight: 800;
+    align-items: center;
+    z-index: 1;
+  }
+  .content-frame,
+  .frame-group {
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .content-frame {
+    width: 1006px;
+    border-radius: 55.59px;
+    background-color: #faff1f;
+    padding: var(--padding-28xl) 78px var(--padding-28xl) 72px;
+    min-height: 421px;
+  }
+  .frame-group {
+    width: 1236px;
+    padding: 0 var(--padding-xl);
+    text-align: center;
+    color: #2e2b38;
+  }
+  .headline-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 224px 0;
+  }
+  .headline-text,
+  .parent-frame,
+  .youtube2 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .parent-frame {
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 2232px;
+    min-height: 2364px;
+  }
+  .youtube2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 271px;
+    text-align: left;
+    font-size: var(--font-size-77xl);
+    color: #f91717;
+    font-family: var(--font-inter);
+  }
+  .chess-bord-product-page {
+    width: 100%;
+    height: 2972px;
+    position: relative;
+    background-color: rgba(45, 159, 174, 0.2);
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 4575px) {
+    .chess-tutor-2 {
+      flex: 1;
+    }
+    .parent-frame {
+      flex: 1;
+      min-height: auto;
+    }
+    .youtube2 {
+      flex-wrap: wrap;
+    }
+    .chess-bord-product-page {
+      height: auto;
+      min-height: 2972;
+    }
+  }
+  @media screen and (max-width: 3225px) {
+    .chess-tutor-2 {
+      flex: 1;
+    }
+    .parent-frame {
+      flex: 1;
+      min-width: 100%;
+      min-height: auto;
+    }
+    .youtube2 {
+      flex-wrap: wrap;
+    }
+    .chess-bord-product-page {
+      height: auto;
+      min-height: 2972;
+    }
+  }
+  @media screen and (max-width: 1850px) {
+    .chess-tutor-2 {
+      flex: 1;
+    }
+    .hedline2 {
+      font-size: 51px;
+    }
+    .peragraph,
+    .place-order {
+      font-size: var(--font-size-29xl);
+    }
+    .content-frame {
+      padding-left: 36px;
+      padding-right: 39px;
+      box-sizing: border-box;
+    }
+    .headline-text {
+      gap: 224px 0;
+    }
+    .parent-frame {
+      flex: 1;
+      min-height: auto;
+    }
+    .youtube2 {
+      flex-wrap: wrap;
+      gap: 0 271px;
+    }
+    .chess-bord-product-page {
+      height: auto;
+      min-height: 2972;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .chess-tutor-2 {
+      flex: 1;
+    }
+    .hedline2 {
+      font-size: 32px;
+    }
+    .peragraph,
+    .place-order {
+      font-size: var(--font-size-10xl);
+    }
+    .headline-text {
+      gap: 224px 0;
+    }
+    .parent-frame {
+      flex: 1;
+      min-height: auto;
+    }
+    .youtube2 {
+      flex-wrap: wrap;
+      gap: 0 271px;
+    }
+    .chess-bord-product-page {
+      height: auto;
+      min-height: 2972;
+    }
+  }
+    
